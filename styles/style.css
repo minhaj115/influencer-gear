@@ -1,0 +1,201 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+/* common attributes */
+
+body{
+     font-family: 'Poppins', sans-serif;
+     color: #3a3a3a;
+     background-color: white;
+     margin: 0;
+}
+header, main{
+     padding: 30px;
+}
+
+/* header style */
+
+nav{
+     display: flex;
+     justify-content: space-between;
+     color: #3a3a3a;
+}
+nav p{
+     font-size: 1.5em;
+     font-weight: 500;
+}
+.nav-bar{
+     display: flex;
+}
+.nav-bar li{
+     list-style: none;
+     padding-left: 70px;
+     font-size: 1.4em;
+}
+
+/* influencer section style */
+
+.main-section{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.influencer-info{
+     width: 580px;
+     height: 280px;
+}
+.influencer-info h2{
+     font-size: 50px;
+}
+.influencer-info p{
+     font-size: 16px;
+}
+.influencer-info button{
+     font-size: 15px;
+     font-weight: 600;
+     padding: 10px 25px;
+     border-radius: 40px;
+     background-color: #ee3176;
+     color: white;
+}
+.influencer-info .fa-arrow-right{
+     padding-left: 10px;
+     font-size: 14px;
+}
+.main-camera{
+     width: 440px;
+     height: 415px;
+     background-color: whitesmoke;
+     border-radius: 100px;
+     padding: 15px;
+     margin-right: 50px;
+}
+.main-section:hover .main-camera{
+     transform: rotatez(360deg);
+     transition: transform 2s ease-in;
+}
+/* !-- company section style  */
+
+.company-section{
+     width: 80%;
+     height: 110px;
+     margin: 100px 50px 50px 120px;
+     background-color: whitesmoke;
+     border-radius: 10px;
+
+}
+.company-section ul{
+     display: flex;
+     align-items: center;
+}
+.company-section li{
+     list-style: none;
+     padding: 40px 55px 10px 15px;
+}
+
+/* popular collection section style */
+
+.collection-tittle h2{
+     font-size: 30px;
+     font-weight: 600;
+     margin: 80px 0 30px 550px;
+}
+.collections{
+     width: 80%;
+     display: grid;
+     grid-template-columns:repeat(3, 1fr);
+     margin-left: 100px;
+}
+.collection{
+     background-color: #ffff;
+     border: 5px;
+     box-shadow: 0px 0px 40px #18181826;
+     border-radius: 10px;
+     width: 310px;
+     height: 450px;
+     padding: 15px 5px 5px 15px;
+     margin-left: 50px;
+     margin-bottom: 30px;
+}
+.collection-details h3{
+     color: #000;
+     font-weight: 500;
+     margin: 10px 0 0 0;
+}
+.collection-details p{
+     margin: 10px 0;
+}
+.collection-info i{
+    color: #dd9000;
+}
+.collection-info span{
+     color: #5a5a5a;
+     font-size: 15px;
+     font-weight: 600;
+}
+.collection-info p{
+     color: gray;
+     font-size: 15px;
+     font-weight: 600;
+     margin: 0;
+}
+.collection-tittle button{
+     border: none;
+     color: #ee3176;
+     font-size: 20px;
+     font-weight: 600;
+     margin-left: 1130px;
+     background-color: #ffff;
+}
+
+/* featured products section style*/
+.featured-section{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 60px;
+    justify-items: center;
+    margin: 50px;
+}
+.featured-info{
+     width: 600px;
+}
+.featured-info h2{
+     color: #000;
+     font-size: 35px;
+}
+.featured-info p{
+     width: 500px;
+}
+.featured-info button{
+     background-color: #ee3176;
+     color: white;
+     padding: 10px 25px;
+     border-radius: 5px;
+}
+.featured-info i{
+     padding: 0 10px;
+}
+
+/* footer section style*/
+
+footer{
+     background-color: #030329;
+     color: white;
+     width: 100%;
+}
+.footer-info{
+     text-align: center;
+     padding: 20px;
+}
+.footer-info h2{
+     font-size: 25px;
+     font-weight: 600;
+     margin-bottom: 5px;
+}
+.footer-info p{
+     margin: 5px;
+}
+.footer-icon i{
+     margin: 15px;
+}
+
